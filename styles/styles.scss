@@ -61,7 +61,7 @@ main {
         align-items: center;
         letter-spacing: 2px;
         backdrop-filter: blur(15px);
-        border: 1px solid #555;
+        border: 1px solid rgb(34, 34, 34);
         border-radius: .5em;
         padding: 4rem;
         color: white;
@@ -89,7 +89,7 @@ main {
     }
 
     .card {
-        border: 1px solid #555;
+        border: 1px solid rgba(230, 178, 196, 0.7);
         min-width: 300px;
         max-width: 350px;
         height: 400px;
@@ -117,8 +117,8 @@ main {
     
         .cards-container {
             display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            grid-column-gap: 1.5em;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-column-gap: 2vw;
         }
     }
 }

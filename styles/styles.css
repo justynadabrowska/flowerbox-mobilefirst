@@ -91,7 +91,7 @@ main .hero-container {
   letter-spacing: 2px;
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
-  border: 1px solid #555;
+  border: 1px solid #222222;
   border-radius: .5em;
   padding: 4rem;
   color: white;
@@ -130,7 +130,7 @@ main .hero-container p {
 }
 
 .products-main-section .card {
-  border: 1px solid #555;
+  border: 1px solid rgba(230, 178, 196, 0.7);
   min-width: 300px;
   max-width: 350px;
   height: 400px;
@@ -164,9 +164,9 @@ main .hero-container p {
   .products-main-section .cards-container {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 1.5em;
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 2vw;
   }
 }
 /*# sourceMappingURL=styles.css.map */

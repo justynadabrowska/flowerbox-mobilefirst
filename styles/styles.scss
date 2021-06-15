@@ -63,17 +63,19 @@ main {
         backdrop-filter: blur(15px);
         border: 1px solid rgb(34, 34, 34);
         border-radius: .5em;
-        padding: 4rem;
-        color: white;
+        padding: 3rem;
+        color: rgb(233, 233, 233);
         max-width: 80%;
 
         h1 {
             text-align: center;
+            font-size: 1.4rem;
         }
         
         p {
             margin-top: 1.5em;
             text-align: center;
+            font-size: .8rem;
         }
      }
 }
@@ -113,12 +115,27 @@ main {
 }
 
 @media (min-width: 1000px) {
+
     .products-main-section {
     
         .cards-container {
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             grid-column-gap: 2vw;
+        }
+    }
+
+    main {
+        .hero-container {
+            padding: 4rem;
+
+            h1 {
+                font-size: 1.8rem;
+            }
+            
+            p {
+                font-size: 1.2rem;
+            }
         }
     }
 }

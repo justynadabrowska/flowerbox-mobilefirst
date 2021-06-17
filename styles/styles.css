@@ -92,7 +92,6 @@ main .hero-container {
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
   border: 1px solid #222222;
-  border-radius: .5em;
   padding: 3rem;
   color: #e9e9e9;
   max-width: 80%;
@@ -180,10 +179,10 @@ main .hero-container p {
 
 .contact-title {
   font-weight: 600;
-  font-size: 3em;
+  font-size: 2.5em;
   margin: 0;
   color: #AC3B61;
-  margin-right: 4rem;
+  margin-right: 3rem;
 }
 
 .btn {
@@ -209,7 +208,6 @@ main .hero-container p {
   max-width: 50%;
   padding: 2rem 4rem;
   border: 1px solid #AC3B61;
-  border-radius: 8px;
 }
 
 .input-group {
